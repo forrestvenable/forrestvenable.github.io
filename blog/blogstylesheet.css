@@ -1,0 +1,16 @@
+#blog_title{
+  font-family:Garamond;
+  font-size:16pt;
+  text-align:center;
+}
+h2{
+  font-family:Garamond;
+  font-size:14pt;
+}
+#date{
+  font-family:Garamond;
+  font-size:12pt;
+}
+#text_body{
+  font-size:12pt;
+}
