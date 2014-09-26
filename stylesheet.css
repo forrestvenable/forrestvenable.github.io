@@ -1,0 +1,29 @@
+header{
+	font-size: 24pt;
+	text-align: center;
+	display: block;
+	width: 100%;
+	top: 0px;
+	background:#3943FF;
+	color:#1C227F;
+	top-margin: -8px;
+}
+.nav_bar{
+	width: 100%;
+	display: block;
+	font-size: 12pt;
+	background:#FFF;
+}
+.nav-bar a{
+	display: inline-block;
+	width: 100px;
+}
+.body{
+	background:#8189EA;
+	height:80%;
+	padding-top:20px;
+	padding-left:20px;
+}
+#contact_page a{
+	display:block;
+}
