@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>t2-css-design.html</title>
+    <link type="text/css" rel="stylesheet" href="blogstylesheet.css"/>
+  </head>
+  <body>
+    <h1 id="blog_title">IDs vs Classes</h1>
+    <h2><span id="date">September 27, 2014</span></h2>
+    
+    <div id="text_body"> 
+        <p>For the second week of Dev Bootcamp we worked on html and css. This included creating a website, namely the one your reading this on</p>
+        <p> The blog assignment for this week is to write on one of a couple subjects: The difference between Margins, Borders, and Padding in CSS; the difference between using classes or ids to distinguish content for CSS; what the different types of positioning mean; and finally the difference between having something be "inline" and in an "inline block"</p>
+        <p>I am choosing to write on the difference between classes and ids.</p>
+        <p>Both classes and ids can be used to distinguish between identical content types for CSS. For example one paragraph can be singled out for special fonts, colors, font sizes and so on.</p>
+        <p>The first immediate difference is that when you refer to an id in CSS you have to use a "#" before it, while for a class you use a ".". This also means that I could select a specific paragraph and class combination (for example) by using p."classname", where p is the html for a paragraph and substituting whatever the particular class name actually is for "classname". As best I can tell this is not possible for ids</p>
+        <p>This isn't really the biggest difference between the two, however. The real difference is how the computer thinks of either of the categories. The computer will think of an id as a single unique designation, which means that it will have no idea what to do if more than one element uses it.</p>
+        <p>Different browsers will handle this problem differently. As best as I can tell, the version of chrome that I am using (version 37) ignores future use of that id, meaning that it will only work on the first time it is used. Others will have other problems, possibly including not being able to display the pages.</p>
+        <p>Not all browsers have this problem, of course, but there is another place where I can almost guarantee that it will break things, and that is when you are also working with Javascript or another programming language. In those cases the code will return errors and fail to run. Given that a lot of fancy, and potentially structurally important, parts of websites rely on code to function this is not a good thing to have happen.</p>
+        <p>Classes have none of these problems and work fine no matter how many times they are used and, as mentioned above, have some additional things they can do because of this that ids can't.</p>
+        <p>From what research I have done the rule for when to use one or the other is that when you are naming one particular thing, you use an id, otherwise you use a class. Personally I would very much err on the side of using classes.</p>
+    </div>
+  </body>
+</html>
