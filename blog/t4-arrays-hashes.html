@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>t4-arrays-hashes</title>
+    <link type="text/css" rel="stylesheet" href="blogstylesheet.css"/>
+  </head>
+  <body>
+    <h1 id="blog_title">Arrays and Hashes</h1>
+    <h2><span id="date">October 4th, 2014</span></h2>
+    
+    <div id="text_body"> 
+        <p>This week we started doing actual programming tasks in Ruby. We started assigning values to variables, whether those values were 5 or "Hello"; we did some basic things with if statements (do this if this is the case, else do this other thing instead); created methods, which are essentially ways of not writing the same code over and over again; and finally we studied ways of storing larger amounts of related information.</p>
+        <p>The reason for using hashes or arrays instead of clusters of related variables is that variables are a pain to deal with in large numbers. This isn't to say that you couldn't create code that would solve that problem, but it would probably be fairly slow and even a small typo could cause all manner of problems. Arrays and hashes are great because someone has already gone through the work of creating ways of doing all manner of common tasks and has optimized those ways of doing things so that they are at least acceptable.</p>
+        <p>That brings us to the differences between them. An array is a collection of things that have a numerical order (there is a first thing, a second thing, etc.). These things could be just about form of data (no saving methods to arrays), including other arrays. A hash doesn't have a numerical order to the stuff it contains, but instead uses arbitrary pairs of values.</p>
+        <p>An example of an array is {"apple","banana","orange"}. Each of those particular elements has a number associated with it: apple is 0 (because programming languages generally start counting at 0 instead of one), banana is 1, and orange is 2. This number is called the "index". A hash would instead be something like {first_name: "Forrest", last_name: "Venable", profession: "Developer"}. The first value (ie first_name) is called a "key" and the second value (ie "Forrest") is called a value. The key is analogous to the index of an array and both can be used to access their related value.</p>
+        <p>As best I can tell a hash generally used when talking about things that describe a thing, while arrays are used for collections of related things, though the biggest difference is simply whether there is a numbered index or arbitrary keys.</p>
+    </div>
+  </body>
+</html>
