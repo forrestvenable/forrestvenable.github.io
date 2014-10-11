@@ -1,3 +1,6 @@
+body{
+	margin:30px;
+}
 #blog_title{
   font-family:Garamond;
   font-size:16pt;
@@ -13,4 +16,9 @@ h2{
 }
 #text_body{
   font-size:12pt;
+}
+code{
+	display:block;
+	margin:10px;
+	text-align:center;
 }
