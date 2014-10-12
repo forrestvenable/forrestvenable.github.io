@@ -13,5 +13,7 @@
       <p>Cycle takes an array, such as [1,2,3,4]. It then goes over each element of the array a number of times, which is specified with the parentheses. If no number is specified, it will default to doing it forever, which means that if you aren't careful it won't stop and will bog things down. What it does with each iteration is specified within curly brackets and can be just about anything. If I want to multiply every number by two and repeat the array 3 times, I can write: <code>[1,2,3,4].cycle(3){|n| puts n*2}</code> The computer will then go over the array and print n*2 while substituting whichever current number it is on for n. It will stop the 3rd time it goes through the array. This means that the end result is the following sequence: 2, 4, 6, 8, 2, 4, 6, 8, 2, 4, 6, 8.</p>
       <p>Note that I am not required to actually include n in the code to be executed. If I write<code>[1,2,3].cycle(1){|n| puts "Panda"}</code> I will print Panda three times. This means that "cycle(1)" is identical to "each", as they will both iterate over every element in an enumerable once.</p>
     </div>
+    <a href="../index.html">Home</a>
+    <a href="../blogs.html">Back</a>
   </body>
 </html>
