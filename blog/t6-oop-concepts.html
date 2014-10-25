@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Composition and Inheritance</title>
+    <link type="text/css" rel="stylesheet" href="blogstylesheet.css"/>
+  </head>
+  <body>
+    <h1 id="blog_title">Composition and inheritance</h1>
+    <h2><span id="date">October 24, 2014</span></h2>
+    
+    <div id="text_body"> 
+        <p>This week we studied Object Oriented Programming. Object Oriented Programming relies upon certain code objects that have various variables and methods associated with them. For a small Class (the Ruby term for such an object) the programmer might make the entire thing from scratch, creating each variable and function individually, by hand. However as the number and complexity of Classes grow, this can quickly become unmanageable and unmaintainable as portions of common functionality would have to be copied from Class to Class. There are several different solutions to this, two of which are inheritance and composition.</p>
+        <p>Inheritance allows a programmer to create a new class with all the code of another class already included. The Class that is inherited from is called the parent, while the one that inherits is called the child. A good example of where inheritance would be useful is animals: Both cats and snakes and animals, and thus have some properties like needing to eat or being able to move, but they also have independent properties like whether they have fur or scales. If we did away with the Animal Class, then we would have to duplicate the code that describes traits that they both have, but there isn't anything that every animal can do that a snake or a cat couldn't (else they wouldn't be animals). The syntax here is Cat < Animal and Snake < Animal. </p>
+        <p>Composition is the practice of actually creating an instance of one class within another. By manipulating this instance, the former class can gain some of the functionality of the latter without including all the latter's functionality. For instance say I have a object that represents a refrigerator and another that represents winter. I can have winter actually create a refrigerator object and then have that "refrigerator" cool whatever winter is supposed to. With careful use of method names, the end-user has no need to know where the functionality actually comes from</p>
+        <p>At this point it should be clear what the flaws in either strategy are: Inheritance doesn't do very well if the two classes both start needing different features, and composition can become a extremely difficult to maintain due to the bizarre connections between objects that will not be immediately apparent. Determining which to use depends on which problem seems more likely to come up.</p>
+    </div>
+    <a href="../index.html">Home</a>
+    <a href="../blogs.html">Back</a>
+  </body>
+</html>
