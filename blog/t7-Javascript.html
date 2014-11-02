@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Javascript/Ruby Comparison</title>
+    <link type="text/css" rel="stylesheet" href="blogstylesheet.css"/>
+  </head>
+  <body>
+    <h1 id="blog_title">The Difference between Ruby's Hashes and Javascript's Objects</h1>
+    <h2><span id="date">October 31, 2014</span></h2>
+    
+    <div id="text_body"> 
+        <p>This week we have been learning Javascript, and an important part of that is discerning the differences between it and the other language we have been learning: Ruby. In this blog post I will be talking about the differences in how Javascript and Ruby handle objects.</p>
+        <p>The two languages each have two roughly equivalent structures: A Javascript "object" corresponds to a Ruby "hash" and a Ruby "class" corresponds to a Javascript "prototype". What changes is precisely where certain pieces of functionality reside:</p>
+        <p>A Ruby hash is a method of storing data, and can do little else. This is not to say that there aren't methods inherent in hashes that a programmer can take advantage of, but those cannot be added to at this level of programming. Instead they have to create or modify a Ruby class if they want to have special logic apply to the hash that they created. Javascript, on the other hand makes all that functionality available to its objects without needing any special steps. The purpose of a prototype is rather to allow the programmer to rapidly create numerous related objects quickly and with minimal repetition, not to give access to a wider variety of commands.</p>
+        <p>This seems to be a fairly common phenomena, namely that Javascript lets a programmer do a wider variety of things, but it also has worse error handling that makes it a pain to debug. Trying to fix other people's Javascript in the future is going to be...interesting.</p>
+    </div>
+    <a href="../index.html">Home</a>
+    <a href="../blogs.html">Back</a>
+  </body>
+</html>
