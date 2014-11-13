@@ -4,26 +4,59 @@ header{
 	display: block;
 	width: 100%;
 	top: 0px;
-	background:#3943FF;
-	color:#1C227F;
-	top-margin: -8px;
+	background: #FFF;
+	color: #000;
+	font-family: Crete Round;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
-.nav_bar{
+nav{
 	width: 100%;
 	display: block;
 	font-size: 12pt;
 	background:#FFF;
+	text-align:center;
+	font-family: Josefin Slab;
+	background: #4496E8;
 }
-.nav-bar a{
+nav a {
 	display: inline-block;
 	width: 100px;
+	text-decoration: none;
+	padding: 5px;
 }
-.body{
-	background:#8189EA;
+nav a:active{
+	color: #000;
+}
+nav a:hover{
+	color: #000;
+	background:#70F3FF;
+}
+nav a:visited{
+	color: #000;
+}
+body{
+	margin: 0px;
+}
+main {
+	/*background:#8189EA;*/
 	height:80%;
 	padding-top:20px;
 	padding-left:20px;
+	border-radius:10px;
 }
+#about_me{
+	display:block;
+	width:50%;
+	float:left;
+}
+img{
+	display:block;
+	float:right;
+	border-radius:10px;
+	width:40%;
+}
+
 #contact_page a{
 	display:block;
 }
